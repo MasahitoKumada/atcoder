@@ -14,10 +14,15 @@ using p_ii=pair<ll,ll>;
 
 
 int main() {
-    int X;
+
+	float X;
     cin >> X;
 
-    cout << int((X-int(X))*10);
+    if(int((X-int(X))*10) >= 5){
+		cout << int(X)+1;
+	}else{
+		cout << int(X);
+	}
 
 
 	return 0;
