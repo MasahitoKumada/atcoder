@@ -13,8 +13,9 @@ using p_ii=pair<ll,ll>;
 #define REP_IF(i,j,n) for(int i=j;i<(n);i++)
 
 
-int main(){
+int main() {
 
 
-    return 0;
+
+	return 0;
 }

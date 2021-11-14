@@ -14,7 +14,25 @@ using p_ii=pair<ll,ll>;
 
 
 int main() {
+    int N, K, A;
+    cin >> N >> K >> A;
+    
+    int cnt = 0;
+    A --; 
+    while(cnt < K){
+        
+        if(A == N){
+            A = 1;
+        }else{
+            A++;
+        }
+        cnt++;
 
+        // cout << A << endl;
+
+    }
+
+    cout << A << endl;
 
 
 	return 0;

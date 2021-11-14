@@ -4,18 +4,18 @@
 #include<vector>
 #include<algorithm>
 #include <numeric>
-#include <math.h>
 using namespace std;
  
 using ll=long long;
-using p_ii=pair<ll,ll>;
+using ii=pair<ll,ll>;
  
 #define REP(i,n) for(int i=0;i<(n);i++)
 
 
-int main() {
+int main(){
 
 
 
-	return 0;
+
+    return 0;
 }
