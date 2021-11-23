@@ -13,6 +13,7 @@ for i in range(r):
     temp = list(map(int, input().split()))
     task_dependency[temp[1] - 1].append(temp[0] - 1)
 
+
 # -1: not started
 #  0: started
 #  1: completed
